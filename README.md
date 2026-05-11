@@ -8,7 +8,7 @@ Repositório dedicado ao estudo de programação na linguagem C, explorando conc
 > - Desenvolver códigos que possam ser utilizados em contextos reais.
 
 ## 📖 Conteúdo
-> - Os códigos-fonte estão disponíveis diretamente no repositório principal, com nomes breves, focados em facilitar a busca por funcionalidades.
+> - Os códigos-fonte estão disponíveis em subpastas temáticas dentro do repositório principal, com nomes breves, focados em facilitar a busca por funcionalidades.
 > - Dentro de cada arquivo, existe um pequeno texto para explicar ao usuário seu objetivo e capacidades, bem como comentários ao longo de toda sua extensão.
 > - `estrutura-de-dados-1/`: Códigos diversos e intuitivos para exemplos de conceitos como fila, pilha e lista.
 
@@ -32,16 +32,19 @@ Instruções para rodar os exemplos localmente:
 
 2. Acesse o repositório clonado, compile e execute manualmente ou por comandos.
     >   ```bash
-    >   gcc "nome-arquivo-base.cpp" -o "nome-arquivo-saida.exe" && ./"nome-arquivo-saida.exe"
+    >   cd linguagem-c
+    >   cd subpasta-escolhida
+    >   g++ nome-arquivo-base.cpp -o nome-arquivo-saida.exe 
+    >   .\nome-arquivo-saida.exe
     >   ```
 
 3. Caso deseje editar o código:
     >   Selecione o arquivo e abra com o editor de texto de sua escolha ou digite no terminal algum dos comandos a seguir:
     - Abrir no **Notepad**:
         >   ```bash
-        >    notepad "nome-arquivo-escolhido.cpp"
+        >   notepad nome-arquivo-escolhido.cpp
         >   ```
     - Abrir no **Visual Studio Code**:
         >   ```bash
-        >    code "nome-arquivo-escolhido.cpp"
+        >   code nome-arquivo-escolhido.cpp
         >   ```
